@@ -1,7 +1,8 @@
 import { ReactNode } from 'react';
 import styles from './InfoItem.module.scss';
 
-interface InfoItemProps {
+export interface InfoItemProps {
+   id: string,
    icon: ReactNode,
    text?: string | null,
    isLink?: boolean
