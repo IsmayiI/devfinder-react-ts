@@ -1,10 +1,7 @@
 import { LocalGithubUser } from '../../types';
 import styles from './UserStat.module.scss';
 
-interface UserStatProps extends Pick<
-   LocalGithubUser,
-   'repos' | 'followers' | 'following'
-> { }
+interface UserStatProps extends Pick<LocalGithubUser, 'repos' | 'followers' | 'following'> { }
 
 export const UserStat = ({ repos, followers, following }: UserStatProps) => (
    <div className={styles.userStat}>
