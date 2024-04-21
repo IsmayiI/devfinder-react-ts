@@ -1,4 +1,4 @@
-import { FormEvent, useRef } from 'react';
+import { FormEvent } from 'react';
 import styles from './Search.module.scss';
 import SearchIcon from '../../assets/SearchIcon';
 import { Button } from '../Button';
