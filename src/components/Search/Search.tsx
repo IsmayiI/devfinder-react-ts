@@ -1,7 +1,7 @@
 import { FormEvent } from 'react';
 import styles from './Search.module.scss';
 import SearchIcon from '../../assets/SearchIcon';
-import { Button } from '../Button';
+import { Button } from '../Button/Button';
 
 interface SearchProps {
    onSubmit: (text: string) => void,

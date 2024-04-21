@@ -1,8 +1,8 @@
 import { useState } from "react"
-import { Container } from "./components/Container"
-import { Search } from "./components/Search"
-import { TheHeader } from "./components/TheHeader"
-import { UserCard } from "./components/UserCard"
+import { Container } from "./components/Container/Container"
+import { Search } from "./components/Search/Search"
+import { TheHeader } from "./components/TheHeader/TheHeader"
+import { UserCard } from "./components/UserCard/UserCard"
 
 import { defaultUser } from "./mock"
 import { GithubError, GithubUser, LocalGithubUser } from "./types"

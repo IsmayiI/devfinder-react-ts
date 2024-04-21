@@ -1,4 +1,4 @@
-import { ThemeSwitcher } from '../ThemeSwitcher';
+import { ThemeSwitcher } from '../ThemeSwitcher/ThemeSwitcher';
 import styles from './TheHeader.module.scss';
 
 

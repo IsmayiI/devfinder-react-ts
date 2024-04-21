@@ -3,7 +3,7 @@ import LocationIcon from '../../assets/LocationIcon';
 import TwitterIcon from '../../assets/TwitterIcon';
 import WebsiteIcon from '../../assets/WebsiteIcon';
 import { LocalGithubUser } from '../../types';
-import { InfoItem, InfoItemProps } from '../InfoItem';
+import { InfoItem, InfoItemProps } from '../InfoItem/InfoItem';
 import styles from './UserInfo.module.scss';
 
 interface UserInfoProps extends Pick<LocalGithubUser, 'blog' | 'company' | 'twitter' | 'location'> { }
