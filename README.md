@@ -1,6 +1,6 @@
-# DevFinder
+# devfinder
 
-DevFinder is a simple React application built with TypeScript and Vite bundler. It allows users to search for GitHub users by their username. Upon entering a username, the application fetches the user's profile information from GitHub API and displays a brief summary.
+ devfinder is a simple React application built with TypeScript and Vite bundler. It allows users to search for GitHub users by their username. Upon entering a username, the application fetches the user's profile information from GitHub API and displays a brief summary.
 
 ## Features
 
@@ -16,3 +16,6 @@ DevFinder is a simple React application built with TypeScript and Vite bundler. 
 - TypeScript
 - Vite
 - GitHub API
+
+## Project Link
+https://devfinder-react-ts-rcsh.vercel.app
